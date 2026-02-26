@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <a href="/src/user.html">
+            <div class="logo-pic">
+                <img src="/img/logo.png" alt="Animix Logo">
+            </div>
+        </a>
+        <nav class="nav-links">
+            <a href="/src/user.html">Home</a>
+        </nav>
+        <div class="user-profile">
+            <a href="#"><img src="/img/pf.jpg" alt="User Profile"></a>
+            <div class="user-menu">
+                <a href="#">Profile</a>
+                <a href="#">Settings</a>
+                <a href="/src/guest.html">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <!--search and filter section-->
+    <section class="filter-section">
+        <div class="search-bar">
+            <label for="search">Search</label>
+            <div>
+                <i class="fas fa-search"></i>
+                <input type="text" id="search" name="search" placeholder="Search...">
+            </div>
+        </div>
+        <div class="filter-group">
+            <label for="genre">Genres</label>
+            <select id="genre" name="genre">
+                <option><a href="#">Any</a></option>
+                <option><a href="#">Action</a></option>
+                <option><a href="#">Adventure</a></option>
+                <option><a href="#">Comedy</a></option>
+                <option><a href="#">Drama</a></option>
+                <option><a href="#">Fantasy</a></option>
+                <option><a href="#">Horror</a></option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="year">Year</label>
+            <select id="year" name="year">
+                <option><a href="#">Any</a></option>
+                <option><a href="#">2024</a></option>
+                <option><a href="#">2023</a></option>
+                <option><a href="#">2022</a></option>
+                <option><a href="#">2021</a></option>
+                <option><a href="#">2020</a></option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="format">Format</label>
+            <select id="format" name="format">
+                <option><a href="#">Any</a></option>
+                <option><a href="#">TV</a></option>
+                <option><a href="#">Movie</a></option>
+                <option><a href="#">OVA</a></option>
+                <option><a href="#">ONA</a></option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="status">Status</label>
+            <select id="status" name="status">
+                <option><a href="#">Any</a></option>
+                <option><a href="#">Ongoing</a></option>
+                <option><a href="#">Completed</a></option>
+                <option><a href="#">Upcoming</a></option>
+                <option><a href="#">Hiatus</a></option>
+
+            </select>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section class="anime-list">
+            <h2 class="section-title">TRENDING ANIME</h2>
+            <div class="anime-grid">
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/SpyXFamily3.jpg" alt="Spy X Family 3">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Spy X Family Season 3</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/Gachiakuta.jpg" alt="Gachiakuta">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Gachiakuta</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/ONEPIECE.jpg" alt="ONE PIECE">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">ONE PIECE</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/ToUrEternity.jpg" alt="Fumetsu no Anata e Season 3">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Fumetsu no Anata e Season 3</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/oshi no ko 3.jpg" alt="Oshi no Ko Season 3">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Oshi no Ko Season 3</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/jjk.jpg" alt="Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="anime-list">
+            <h2 class="section-title">NEW RELEASES</h2>
+            <div class="anime-grid">
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/jjk.jpg" alt="Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/Gachiakuta.jpg" alt="Gachiakuta">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Gachiakuta</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/frieren 2nd season.jpg"
+                            alt="Sousou no Frieren 2nd Season">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Sousou no Frieren 2nd Season</a>
+                </div>
+                <div class="anime-card">
+                    <a href="#"><img src="/img/SpyXFamily3.jpg" alt="Spy X Family 3">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">Spy X Family Season 3</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/oshi no ko 3.jpg" alt="Oshi no Ko Season 3">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Oshi no Ko Season 3</a>
+                </div>
+                <div class="anime-card">
+                    <a href="/src/detail.html"><img src="/img/fireforces3p2.png "
+                            alt="Enen no Shouboutai: San no Shou Part 2">
+                        <div class="anime-card-icons">
+                            <div class="anime-card-icon" title="Add to Completed">
+                                <i class=" fa-solid fa-check"></i>
+                            </div>
+                            <div class="anime-card-icon" title="Add to Planning">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/src/detail.html">Enen no Shouboutai: San no Shou Part 2</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <a href="" class="footer-logo">
+                <img src="/img/logo.png" alt="Animix Logo">
+            </a>
+            <div class="footer-links">
+                <a href="#">Donate</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://facebook.com" title="Facebook"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                <a href="https://telegram.org" title="Telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
+                <a href="https://x.com" title="X"><i class="fa-brands fa-twitter"></i> X</a>
+                <a href="https://github.com" title="Github"><i class="fa-brands fa-github"></i> Github</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
