@@ -192,7 +192,7 @@ header {
     font-size: 0.95rem;
     cursor: pointer;
     appearance: none;
-    background-image: url('/img/icon-arrow-down.svg');
+    background-image: url('img/icon-arrow-down.svg');
     background-repeat: no-repeat;
     background-position: right 8px center;
     background-size: 18px;
@@ -615,7 +615,7 @@ main {
     font-size: 0.8rem;
     cursor: pointer;
     appearance: none;
-    background-image: url('/img/icon-arrow-down.svg');
+    background-image: url('img/icon-arrow-down.svg');
     background-repeat: no-repeat;
     background-position: right 8px center;
     background-size: 18px;
